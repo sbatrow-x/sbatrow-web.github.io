@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sithum Batrow 🇱🇰 - Freelance Developer</title>
+    <meta name="description" content="Sithum Batrow - Full Stack Developer specializing in Python, Dart, and C#. Offering custom solutions for Telegram bots, web applications, and more.">
+    <meta name="keywords" content="Sithum Batrow, Full Stack Developer, Python, Dart, C#, Telegram Bots, Web Applications, Android Apps, Desktop Apps">
+    <meta name="author" content="Sithum Batrow">
+    <link rel="icon" href="https://a.fsdn.com/allura/p/darkssh/icon?d062906e8343a44614c675c811a4f6e7e5ed1f9cfe981f3ca65b53a3b6a6fdf9?&w=135" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://a.fsdn.com/allura/p/darkssh/icon?d062906e8343a44614c675c811a4f6e7e5ed1f9cfe981f3ca65b53a3b6a6fdf9?&w=135">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="network-bg" id="network-animation"></div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                 <a href="#home">SB</a>
+            </div>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="https://www.fiverr.com/sithumtaruka?public_mode=true">Portfolio</a></li>
+                    <li><a href="#contact">☎️ Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="glitch" data-text="Sithum Batrow">Sithum Batrow 🇱🇰</h1>
+                    <h2>Full Stack Developer</h2>
+                    <p>Crafting digital solutions with Python, Dart, and C#</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#services" class="btn btn-secondary">View My Work</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/profile.jpg" alt="Sithum Batrow">
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/sbatrow" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sithum-batrow-a577b2216/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://t.me/sibatrow" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://www.fiverr.com/sithumtaruka" target="_blank"><i class="fab fa-dev"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://a.fsdn.com/con/app/proj/darkssh/screenshots/bandicam%202021-12-19%2015-05-27-028.jpg/245/183/1.5" alt="Sithum Batrow Working">
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I'm a passionate Full Stack Developer from Sri Lanka with expertise in building custom digital solutions. With a strong foundation in Python, Dart, and C#, I specialize in creating Telegram bots, web applications, Python scripts, Android apps, and desktop applications.</p>
+                    
+                    <h3>My Approach</h3>
+                    <p>I believe in creating clean, efficient, and user-friendly solutions that solve real-world problems. My development process focuses on understanding client needs, planning thoroughly, and delivering high-quality products on time.</p>
+                    
+                    <h3>Experience</h3>
+                    <p>With over 6 years of experience in software development, I've worked with clients across various industries to deliver custom solutions that meet their specific requirements. My technical expertise and problem-solving skills allow me to tackle complex challenges and create innovative solutions.</p>
+                    
+                    <div class="about-cta">
+                        <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Services</h2>
+                <div class="underline"></div>
+                <p>Specialized development services tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <!-- Telegram Bots -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <h3>Telegram Bots</h3>
+                    <p>Custom Telegram bots for business automation, customer service, notifications, and interactive experiences.</p>
+                    <ul class="service-features">
+                        <li>Interactive command systems</li>
+                        <li>Media handling capabilities</li>
+                        <li>Database integration</li>
+                        <li>Payment system integration</li>
+                        <li>Webhook implementation</li>
+                    </ul>
+                    <a href="https://www.fiverr.com/sithumtaruka?public_mode=true" class="service-link">View Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Web Applications -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Applications</h3>
+                    <p>Responsive and interactive web applications with modern frameworks and clean design principles.</p>
+                    <ul class="service-features">
+                        <li>Responsive design</li>
+                        <li>Frontend & backend development</li>
+                        <li>API integration</li>
+                        <li>Database design</li>
+                        <li>User authentication systems</li>
+                    </ul>
+                    <a href="https://www.fiverr.com/sithumtaruka?public_mode=true" class="service-link">View Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Python Scripts -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python Scripts</h3>
+                    <p>Automation scripts, data processing tools, and custom utilities to streamline your workflows.</p>
+                    <ul class="service-features">
+                        <li>Process automation</li>
+                        <li>Data scraping & analysis</li>
+                        <li>File processing</li>
+                        <li>API integrations</li>
+                        <li>Custom algorithms</li>
+                    </ul>
+                    <a href="https://www.fiverr.com/sithumtaruka?public_mode=true" class="service-link">View Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Android Apps -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <h3>Android Applications</h3>
+                    <p>Native and cross-platform Android applications with intuitive interfaces and robust functionality.</p>
+                    <ul class="service-features">
+                        <li>Flutter development</li>
+                        <li>Native Android development</li>
+                        <li>Material design implementation</li>
+                        <li>API integration</li>
+                        <li>Local data storage</li>
+                    </ul>
+                    <a href="https://www.fiverr.com/sithumtaruka?public_mode=true" class="service-link">View Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Desktop Apps -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Desktop Applications</h3>
+                    <p>Cross-platform desktop applications for Windows, macOS, and Linux with modern interfaces.</p>
+                    <ul class="service-features">
+                        <li>C# .NET applications</li>
+                        <li>Python desktop apps</li>
+                        <li>Electron applications</li>
+                        <li>Database integration</li>
+                        <li>System integration</li>
+                    </ul>
+                    <a href="https://www.fiverr.com/sithumtaruka?public_mode=true" class="service-link">View Projects <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="underline"></div>
+                <p>Technologies and tools I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Dart</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>C#</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">.NET</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">Heroku</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Android Studio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Work Process</h2>
+                <div class="underline"></div>
+                <p>How I approach development projects</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="process-number">01</div>
+                    <div class="process-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Consultation</h3>
+                    <p>Initial discussion to understand your requirements, goals, and expectations.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-number">02</div>
+                    <div class="process-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Planning</h3>
+                    <p>Creating a detailed project plan with timeline, features, and technical specifications.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-number">03</div>
+                    <div class="process-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>Designing user interfaces and system architecture for optimal performance.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-number">04</div>
+                    <div class="process-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Development</h3>
+                    <p>Writing clean, efficient code with regular updates on progress.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-number">05</div>
+                    <div class="process-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <h3>Testing</h3>
+                    <p>Thorough testing to ensure functionality, performance, and security.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="process-number">06</div>
+                    <div class="process-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Deployment</h3>
+                    <p>Launching your project with documentation and support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+                <p>Let's discuss your project</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>batro10300@gmail.com</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+                        <h3>Telegram</h3>
+                        <p>@sibatrow</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Sri Lanka</p>
+                    </div>
+                    
+                    <div class="contact-availability">
+                        <h3>Availability</h3>
+                        <p>I typically respond within 24 hours. Current availability for new projects: <span class="availability-status">Available</span></p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form" form_worker_url="https://restless-tooth-e2a3.sbatrow.workers.dev/">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="telegram">Telegram Bots</option>
+                                <option value="webapp">Web Applications</option>
+                                <option value="python">Python Scripts</option>
+                                <option value="android">Android Apps</option>
+                                <option value="desktop">Desktop Apps</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                
+                        <button type="button" id="cfbutton" class="btn btn-primary" onclick="cfSubmitMessage()">Send Message</button>
+                        <p id="cfcontent"></p>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+
+ 
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Sithum Batrow</h3>
+                    <p>Full Stack Developer</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="https://www.fiverr.com/sithumtaruka?public_mode=true">Portfolio</a></li>
+                        <li><a href="#contact">☎️ Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/sbatrow" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sithum-batrow-a577b2216/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://t.me/sibatrow" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://www.fiverr.com/sithumtaruka" target="_blank"><i class="fab fa-dev"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sithum Batrow. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        async function cfSubmitMessage() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value.toLowerCase();
+            let subject = document.getElementById("subject").value;
+            let message = document.getElementById("message").value;
+            let service = document.getElementById("service").value;
+        
+            let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        
+            // Validation
+            if (name === "") {
+                document.getElementById("name").classList.add("error");
+                return;
+            }
+            if (!emailRegex.test(email)) {
+                document.getElementById("email").classList.add("error");
+                return;
+            }
+            if (subject === "") {
+                document.getElementById("subject").classList.add("error");
+                return;
+            }
+            if (message === "") {
+                document.getElementById("message").classList.add("error");
+                return;
+            }
+        
+            // Disable button during submission
+            let cfbutton = document.getElementById("cfbutton");
+            cfbutton.setAttribute("disabled", true);
+            cfbutton.innerHTML = "Sending...";
+        
+            let formWorkerUrl = "https://restless-tooth-e2a3.sbatrow.workers.dev/";
+        
+            let formData = {
+                name: name,
+                email: email,
+                subject: subject,
+                message: message,
+                phone_no: service
+            };
+        
+            try {
+                let response = await fetch(formWorkerUrl, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(formData)
+                });
+        
+                let result = await response.json();
+        
+                if (result.status) {
+                    document.getElementById("cfcontent").innerHTML =
+                        "✅ Your message has been delivered! I'll contact you back as soon as possible!";
+                        Swal.fire({
+                    position: "top-end",
+                
+                    icon: "success",
+                    title: "✅ Your message has been delivered!",
+                    showConfirmButton: false,
+                    timer: 1500
+                    });
+                } else {
+                    throw new Error("Error");
+                }
+            } catch (error) {
+                console.error(error);
+                document.getElementById("cfcontent").innerHTML =
+                    "❌ Oops! Something went wrong. Please try again.";
+
+                    Swal.fire({
+                    position: "top-end",
+                    icon: "error",
+                    title: "❌ Oops! Something went wrong. Please try again.",
+                    showConfirmButton: false,
+                    timer: 1500
+                    });
+            } finally {
+                cfbutton.removeAttribute("disabled");
+                cfbutton.innerHTML = "Send Message";
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</body>
+</html>
